@@ -1,0 +1,57 @@
+.bg {
+    background-color: #EBEDEF !important;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper * {
+    font-family: 'Poppins', sans-serif;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.isi {
+    background-color: #fff;
+    width: 50rem;
+}
+
+.secondary {
+    color: #727272;
+}
+
+.btn-login {
+    background-color: #205493;
+    color: white;
+    border-radius: 5px;
+}
+.invalid {
+    border: 1px solid #dd3f4b !important;
+}
+
+.invalid-text {
+    color: #dd3f4b;
+    font-size: small;
+}
+
+.small {
+    font-size: small;
+}
+
+.trash {
+    color: red;
+}
+
+.required::after {
+    content: " *";
+    color: red;
+}
+.underline{
+    text-decoration: underline;
+}

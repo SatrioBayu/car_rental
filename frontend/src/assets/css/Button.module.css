@@ -1,0 +1,9 @@
+.toggle{
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .toggle{
+        display: block;
+    }
+}
