@@ -1,11 +1,15 @@
+
 # Car Rental PT. Tambang Freeport
 
 ## Overview
 
-Aplikasi peminjaman mobil untuk sebuah perusahaan.
+Aplikasi peminjaman mobil untuk sebuah perusahaan. 
 User dibagi menjadi 2 yakni Admin dan Pihak Penyetuju.
 Admin dapat menginput pemesanan/peminjaman kendaraan.
 Penyetuju dapat menyetujui atau menolak ajuan pemesanan/peminjaman.
+
+
+
 
 ## Features
 
@@ -18,19 +22,21 @@ Penyetuju dapat menyetujui atau menolak ajuan pemesanan/peminjaman.
 - Export Data to CSV
 - Responsive Design
 
+
 ## Link Website
 
 Currently not hosted yet due Heroku Policy Change
-
 ## Tech Stack
 
 **Client:** React JS (18.2.0), Recharts (2.3.2), React CSV (2.2.2), Bootstrap (5.1)
 
 **Server:** Node JS (16.14.0), Express (4.18.2), Sequelize (6.28), PostgreSQL (8.8), Bcryptjs (2.4.3), JWT (9.0)
 
+
 ## Database Relation Model
 
 ![App Screenshot](https://res.cloudinary.com/dgr7ck0sl/image/upload/v1674127818/Screenshot_2023-01-19_182740_jletbx.png)
+
 
 # Penggunaan
 
@@ -40,7 +46,6 @@ Currently not hosted yet due Heroku Policy Change
     2. Clone repository ini
 
 ## Running the Server
-
     1. Masuk kedalam folder backend
     2. Jalankan npm i / npm install
     3. Buat file .env
@@ -51,7 +56,6 @@ Currently not hosted yet due Heroku Policy Change
     8. Untuk menjalankan server ketik "npm run start:dev"
 
 ### .env
-
     1. PORT = Isi port untuk menjalankan server
     2. DB_USER = Sesuaikan dengan database
     3. DB_PASSWORD = Sesuaikan dengan database
@@ -61,13 +65,11 @@ Currently not hosted yet due Heroku Policy Change
     7. JWT_SECRET = isi bebas
 
 ## Running the Client
-
     1. Masuk kedalam folder frontend
     2. Jalankan npm i / npm install
     3. Untuk menjalankan client ketik "npm start"
 
 ## Penggunaan Fitur Aplikasi
-
     1. Ketika sudah menjalankan client maka langsung dihadapkan pada halaman login admin
     2. Untuk login penyetuju bisa mengklik tautan dibawah tombol login
     3. Setelah login maka akan menuju halaman dashboard yang berisikan grafik sederhana terkait penggunaan kendaraan
