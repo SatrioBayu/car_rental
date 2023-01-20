@@ -46,8 +46,8 @@ Currently not hosted yet due Heroku Policy Change
     3. Buat file .env
     4. Isi file .env sesuai dengan petunjuk dibawah
     5. Pada file database.js di folder config, sesuaikan "dialect" dengan jenis database yang digunakan. Contoh: "postgres" untuk PostgreSQL
-    6. Jalankan "sequelize db:migrate"
-    7. Jalankan "sequelize db:seed:all"
+    6. Jalankan "sequelize db:migrate" untuk membuat tabel database
+    7. Jalankan "sequelize db:seed:all" untuk melakukan pengisian data
     8. Untuk menjalankan server ketik "npm run start:dev"
 
 ### .env
@@ -80,3 +80,20 @@ Currently not hosted yet due Heroku Policy Change
     10. Penyetuju bisa menyetujui / menolak peminjaman dengan mengklik tombol setuju / tolak.
     11. ADMIN tidak bisa menyetujui peminjaman
     12. Logout bisa dengan menekan tombol logout pada sidebar
+
+## Akun User
+
+Akun dibawah hanya akan berfungsi apabila telah melakukan
+panduan untuk menjalankan server
+
+### Akun Admin
+
+    1. Username: Aditasha
+       Password: 12345678
+    2. Username: Hafid
+       Password: 12345678
+
+### Akun Penyetuju
+
+    1. Username: Bayu
+       Password: 12345678
